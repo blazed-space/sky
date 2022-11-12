@@ -10,10 +10,20 @@ Make sure you have NPM and Node.js installed on your machine, run the following 
     npm install
 ```
 
+Next, create a .env file in the root of the directory, add the following contents:
+```
+DOMAIN=example.com
+HOSTNAME=cash
+NAME=Blazed Cash
+PORT=8089
+```
+
+* For: A server running on *cash.example.com*, called **"Blazed Cash"**, being served from port 8089.
+
 ### Running
 To run Sky, execute the following command:
 ```sh
-    npm start
+    npm run start
 ```
 
 ## Why is this?
