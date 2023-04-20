@@ -1,33 +1,22 @@
-# sky
-Next generation smart contract system.
+# Sky
+Sky is an open source ERP system created to serve a very specicific purpose, to connect our various sources of enterprise resources, to a single platform where employees and administrators can easily perform/automate many tasks within the organization.
 
 ## What is this?
-Sky is the smart contract and validation system which runs the Blazed Cash (B$) crypto coin.
+Enterprise resource planning (ERP) is the integrated management of main business processes, often in real time and mediated by software and technology.
+
+This ERP platform happens to be super modular, hackable, and easy to integrate into aan existing organization.
+
+## Modules
+* Finance
+* Planning
+* Assets
+* Distribution
+* Operations
 
 ### Installing
-Make sure you have NPM and Node.js installed on your machine, run the following command:
-```sh
-    npm install
-```
 
-Next, create a .env file in the root of the directory, add the following contents:
-```
-DOMAIN=example.com
-HOSTNAME=cash
-NAME=Blazed Cash
-PORT=8089
-```
-
-* For: A server running on *cash.example.com*, called **"Blazed Cash"**, being served from port 8089.
 
 ### Running
-To run Sky, execute the following command:
-```sh
-    npm run start
-```
-
-## Why is this?
-Sky has been created to solve shortcomings of the Solidity smart contract system. Unlike Solidity based blockchains, Sky based blockchains benefit from native javascript contracts, improved security features, and improves performance features.
 
 ## Who made this?
 This software has been developed by [Blazed Labs LLC](https://blazed.company/) and is published by [Blazed Publishing](https://blazed.xyz/).
